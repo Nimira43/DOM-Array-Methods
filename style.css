@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Caveat&family=Dosis&family=Fontdiner+Swanky&family=IBM+Plex+Sans&family=Merienda&family=Nosifer&family=Rubik+Maze&family=Shantell+Sans&family=Signika+Negative&family=Six+Caps&family=Stick+No+Bills&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&family=Ewert&family=Faster+One&family=Fredericka+the+Great&family=Inspiration&family=Nabla&family=Petit+Formal+Script&family=Sancreek&family=Smokum&family=Stint+Ultra+Condensed&display=swap');
+
+
+* { 
+    box-sizing: border-box;
+}
+
+body {
+    background: url('./arno-senoner-prvaFnRHoWk-unsplash.jpg') no-repeat center center/cover;
+    font-family: 'Fredericka the Great', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Ewert', sans-serif; 
+    display: inline;
+    background-color: beige;
+    color: sienna;
+    border: 3px solid sienna;
+    border-radius: 16px;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    box-shadow: 2px 2px 8px 3px rgba(0, 0, 0, 0.5)
+}
+
+.container {
+    display: flex;
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 800px;
+}
+
+aside {
+    padding: 10px 20px;
+    width: 250px;
+    border-right: 2px dotted darkslategrey;
+}
+
+button{ 
+    cursor: pointer;
+    color:sienna;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: beige;
+    border: 2px solid sienna;
+    border-radius: 12px;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 8px 3px rgba(0, 0, 0, 0.5)
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+main {
+    flex: 1;
+    background-color: beige;
+    color: sienna;
+    border: 2px solid sienna;
+    border-radius: 12px;
+    min-width: 400px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 8px 3px rgba(0, 0, 0, 0.5)
+}
+
+h2 {
+    margin-top: 5px;
+    border-bottom: 2px solid sienna;
+    padding-bottom: 10px;
+    display: flex;
+    letter-spacing: 2px;
+    justify-content: space-between;
+    font-weight: 300;
+}
+
+h3 {
+    margin: 20px 0 0;
+    border-bottom: 1px solid sienna;
+    padding: 10px;
+    display: flex;
+    letter-spacing: 2px;
+    justify-content: space-between;
+    font-weight: 300;
+}
+
+.person {
+    display: flex;
+    letter-spacing: 2px;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
